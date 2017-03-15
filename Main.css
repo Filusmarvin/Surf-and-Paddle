@@ -1,33 +1,87 @@
-<style type=>
+<style>
+
+#top {}
 
   #Surf {font-weight:bold;
         text-align:center;
-        font-size: 20px
+        font-size: 20px;
   }
-  Body {Text-decoration: none;
-        text-decoration-color: black;}
-  .ironyard {font-weight: bold;}
+
+  Body {
+    width:800px;
+    margin:0 auto;
+    Text-decoration: none;
+        text-decoration-color: black;
+      }
+
+
+  .ironyard {font-weight: bold;
+            text-align: center;
+            padding-top:2px;
+            Margin-top:2px;
+            padding-bottom:50px;
+            Margin-bottom:10px;}
+
+.wrapper {
+  flex-direction: row;
+  flex-shrink:;
+}
+
+article {flex-direction: row;
+  flex-shrink: 1;}
+aside   {flex-direction: row;
+  flex-shrink: 1;}
+
+
   .ironyard2 {font-weight: bold;
+              font-size: 60px;
              Margin-top:0px;
             padding-top:0px;}
+
+
   #Face {Margin-top:0px;
         padding-top:0px;}
+
+
   #radical { Border-left: 3px solid grey;
+          font-size: 30px;
           Padding-top: 30px;
           padding-bottom: 30px;
           padding-left:30px;
-          color:blue;}
+          color:#106db3;}
+
+
   #read   {text-decoration:none;
           background-color: grey;
           color:white;}
+
+
   .link {text-decoration:none;
           color:white;
-          width:30px;
+          width:30px;  }
 
-        }
+
     h1 {color:darkblue;}
+
+
     h2 {color:darkblue;}
+
+
+    #bottom {list-style: none;
+          display:flex;
+        flex-direction: row;}
+
+    #flex {width:auto;}
+
+
     footer {background-color:#083452;
-            padding:50px;}
+            padding:50px;
+          display: flex;
+          flex-direction: row;
+          flex-shrink: 1px;
+          width:800px auto;
+          }
+
+
     #Nav {color:white;}
 </style>
