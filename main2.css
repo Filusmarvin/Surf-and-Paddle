@@ -1,0 +1,372 @@
+<style>
+body {
+  border-radius: 50;
+  width: 800px;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration:none;
+}
+  header {
+    background-image:url(pictures/header.jpg);
+    padding-bottom: 80px;
+  }
+
+/* vv Logo image on the top left vv */
+
+#logo{
+  padding-left: 60px;
+}
+
+/* text on the top left in header */
+
+#surf{
+  font-size: 12px;
+}
+
+
+
+
+  #Head   {
+    text-align: center;
+    font-size: 60px;
+    color:white;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  #subhead {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 0px;
+    padding-top: 0px;
+
+  }
+
+  .Navigator{
+    text-decoration: none;
+    position: absolute;
+    width: 150px;
+    height:100px;
+    top: 0%;
+    left: 65%;
+  }
+
+  #navi{
+    font-size: 12px;
+  }
+
+
+  /*
+  ==========^^^^^ Header ^^^^^ ==========
+  */
+
+
+
+  /*
+  =========vvvvv Article vvvvv ==========
+  */
+
+
+
+  .Main{
+
+    display: flex;
+    margin: auto 50px;
+}
+
+
+
+
+  #fantastic{
+    font-size: 50px;
+    font-weight: heavy;
+  }
+
+
+#woah {
+  font-size:20px ;
+  border-left:3px solid lightgrey;
+  color:#106db3 ;
+  padding-left:20px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+
+/* container holding 3 divs */
+#share{
+  display: flex;
+  justify-content: center;
+  padding:10px;
+  padding-left: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  flex-grow: 1;
+  width: 400px;
+
+}
+
+/* all three divs */
+#sharing{
+
+  margin:10px;
+}
+/*First div container */
+.shared1{
+background-color: lightgrey;
+}
+
+
+
+/*sec div container */
+.shared2{
+background-color: lightgrey;
+}
+
+
+/*third div container */
+.shared3{
+background-color: #106db3;
+}
+
+#comments{
+  background-color: darkgray;
+  display: inline-flex;
+  margin: 0px auto;
+}
+
+#comments1{
+  margin: 10px;
+}
+/*
+========== ^^^^^ Article ^^^^^ ===========
+*/
+
+
+
+
+
+/*
+======= vvvv ASIDE vvvv ========
+*/
+.avatar{
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+
+.ann {
+  margin-left: 90px;
+  margin-bottom:0px;
+}
+
+
+#social{
+
+  display:inline-block;
+  width:220px;
+  padding-top: 0px;
+  padding-left: 40px;
+  padding-right: 0px;
+  padding-bottom:10px;
+  margin-top: 0px;
+}
+
+
+.social{
+  border:;
+  flex-grow: 1;
+}
+
+
+/*
+SurferGirl Pic
+*/
+
+#ad{
+  padding-left: 20px;
+}
+
+
+
+/* about this ad  link */
+
+#about{
+  text-align: right;
+  padding-right:40px;
+
+}
+
+
+
+/* Sidebar heading */
+
+
+h4 {
+  color:#106db3;
+  padding: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
+
+/* Paragraph Under Surfer Girl */
+
+#small{
+
+  margin:10px;
+  margin-top:0px;
+}
+
+
+#socialmedia{
+  font-size: 12px;
+  text-align: center;
+  display:flex;
+  flex-grow: 1;
+}
+
+
+#bottom {
+  text-align: center;
+  font-size: 50px;
+}
+
+
+
+
+
+}
+/*
+====== ^^^^ ASIDE ^^^^  ======
+*/
+
+
+
+
+
+/*
+ =====vvvvvFootervvvvv=======
+ */
+
+
+#foot {
+  background-color: #083452;
+}
+
+ #posts {
+   background-color:#083452;
+   display: ;
+   flex: 1 1 0px;
+ }
+
+ #posts1  {
+   background-color:#083452;
+   display: ;
+   display:
+}
+ .posts {
+   opacity: .45;
+   display: ;
+   margin: 0px auto;
+   padding: 0px auto;
+ }
+
+.posts:hover{
+  opacity: .99;
+}
+
+
+
+#post :hover{
+
+}
+/* section class surrounding the nav functions causing the flex */
+
+.covering{
+  background-color: #083452;
+  display: inline-flex;
+  width:100%;
+}
+
+/* vv Ironyard Logo in the footer vv */
+.inside1{
+  display:inline-flex;
+  width:50%;
+  padding-top: 10px;
+}
+
+#yard{
+  margin:5px;
+  margin-left: 10px;
+}
+
+#yard1{
+  padding-left:45px;
+  padding-bottom: 30px;
+}
+
+
+#yard2{
+  color: white;
+  margin-top:10px;
+
+}
+
+
+
+.yard2{
+  color: white;
+  font-size: 8px;
+  padding-top:8px;
+}
+
+
+
+/* vv Nav items vv */
+
+.inside2{
+
+  display: inline-flex;
+  justify-content: center;
+  width:50%;
+  padding-top:15px;
+  padding-left:100px;
+}
+
+
+
+#nav{
+  font-size:8px;
+  color:white;
+  margin:5px;
+  margin-left: 0px;
+  padding-left: 10px;
+}
+
+
+.nav1{
+  border-left: 1px solid grey;
+}
+
+
+.nav2{
+  border-left: 1px solid grey;
+}
+
+
+.nav3{
+  border-left: 1px solid grey;
+}
+
+.nav4{
+  border-left: 1px solid grey;
+}
+
+
+ /*
+ =====^^^^^Footer^^^^^======
+ */
+
+</style>
